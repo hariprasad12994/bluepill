@@ -1,0 +1,5 @@
+https://eta.st/2018/12/20/stm32.html
+https://electronics.stackexchange.com/questions/495006/how-st-link-resets-the-mcu-by-using-reset-pin-how-to-connect-boot0-pin-when-it?rq=1
+https://electronics.stackexchange.com/questions/508185/how-can-i-flash-the-stm32f0-flash-over-swd
+https://www.youtube.com/watch?v=4vgnM9-EEeA
+// todo - Find an OpenOCD reference for easier debugging

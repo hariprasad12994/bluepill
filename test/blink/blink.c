@@ -7,7 +7,7 @@ void reset(void) {
   *rcc_apb2enr |= 1 << 4;
   *gploc_crh = (*gploc_crh & ~(0xf << ((13 - 8) * 4))) | (6 << ((13 - 8) * 4));
   while(1) {
-    for(i = 0; i < 500000; i++);
+    for(i = 0; i < 2500000; i++);
     *gpioc_odr ^= 1 << 13;
     }
 }

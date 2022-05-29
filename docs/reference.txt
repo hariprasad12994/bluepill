@@ -3,3 +3,4 @@ https://electronics.stackexchange.com/questions/495006/how-st-link-resets-the-mc
 https://electronics.stackexchange.com/questions/508185/how-can-i-flash-the-stm32f0-flash-over-swd
 https://www.youtube.com/watch?v=4vgnM9-EEeA
 // todo - Find an OpenOCD reference for easier debugging
+https://dev.to/younup/cmake-on-stm32-the-beginning-3766

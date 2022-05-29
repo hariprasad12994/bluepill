@@ -41,7 +41,7 @@ SECTIONS {
     . = ALIGN(4);
   } >SRAM
 
-  _start_of_data_ = LOADADDR(.data);
+  _data_start_flash_ = LOADADDR(.data);
   .data : {
     . = ALIGN(4);
     _data_start_ = .;

@@ -35,13 +35,14 @@ skip_bss_zeroing:
   ldr r0, =_data_end_
   ldr r1, =_data_start_
   cmp r0, r1
-  beq jump_to_main
+  beq skip_data_segment_copy
   ldr r2, =_data_start_flash_
 copy_data_segment:
   ldr r3, [r2], #4
   str r3, [r1], #4
   cmp r0, r1
   bne copy_data_segment
+skip_data_segment_copy:
 jump_to_main:
   bl main
 halt:

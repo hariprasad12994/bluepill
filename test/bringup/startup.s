@@ -43,7 +43,7 @@ copy_data_segment:
   ldr r3, [r2], #4
   str r3, [r1], #4
   cmp r0, r1
-  beq copy_data_segment
+  bne copy_data_segment
 jump_to_main:
   bl main
 halt:

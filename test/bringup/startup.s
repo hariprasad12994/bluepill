@@ -12,17 +12,15 @@
 .global reset_handler
 
 .section .isr_vector_table, "a", %progbits
-  .type isr_vectors, %object
-  .size isr_vectors, .-isr_vectors
-
+.type isr_vectors, %object
+.size isr_vectors, .-isr_vectors
 isr_vectors:
-  .word _stack_end_
-  .word reset_handler
+.word _stack_end_
+.word reset_handler
 
 .section .text.reset_handler
-  .weak reset_handler
-  .type reset_handler, %function
-
+.weak reset_handler
+.type reset_handler, %function
 reset_handler:
   ldr r0, =_bss_end_
   ldr r1, =_bss_start_

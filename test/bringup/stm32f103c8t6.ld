@@ -49,5 +49,5 @@ SECTIONS {
     *(.data*)
     _data_end_ = .;
     . = ALIGN(4);
-  } >SRAM
+  } >SRAM AT > FLASH
 }

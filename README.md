@@ -1,5 +1,6 @@
 # BluePill
 HAL library for the STM32F103 microcontroller board, also known as Bluepill, for study purposes
+The library is built from first principles without using CubeMX
 
 ## Requirements
 ### Packages
@@ -19,7 +20,9 @@ be copied to usr/share/openocd/scripts/target
 ## Roadmap
 Possible features to be implemented
 - [x] Hello World! Classic LED blink from scratch on bare metal
+- [ ] RCC
 - [ ] Abstracted GPIO
+- [ ] CMake support. (Also helps for building selective peripheral build)
 - [ ] Timer module
 - [ ] PWM abstraction
 - [ ] SPI, I2C

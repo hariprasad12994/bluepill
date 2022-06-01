@@ -4,7 +4,7 @@ HAL library for the STM32F103 microcontroller board, also known as Bluepill, for
 ## Requirements
 ### Packages
 - arm-none-eabi-gcc
-- arm-non-eabi-gdb
+- arm-none-eabi-gdb
 - stlink
 - openocd
 

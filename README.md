@@ -9,7 +9,7 @@ HAL library for the STM32F103 microcontroller board, also known as Bluepill, for
 - openocd
 
 ### Installation Notes
-In case a of BluePill clone, OpenOCD might throw the following error
+In case of a BluePill clone, OpenOCD might throw the following error
 ```
 openocd Warn : UNEXPECTED idcode: 0x2ba01477
 ```

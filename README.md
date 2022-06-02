@@ -29,13 +29,16 @@ So as a work around a modified cfg STM32F1x_local.cfg is used, which will have t
 be copied to usr/share/openocd/scripts/target
 
 ## Roadmap
-Possible features to be implemented
+Possible features to be implemented. Entries will be added and removed on the
+fly depending on design outcomes. Entries marked with "?" are already considered
+to be tentative
 - [x] Hello World! Classic LED blink from scratch on bare metal
 - [ ] RCC
 - [ ] Abstracted GPIO
-- [ ] CMake support. (Also helps for building selective peripheral build)
+- [ ] CMake support. (Also helps for building selective peripheral library)
 - [ ] Timer module
 - [ ] PWM abstraction
 - [ ] SPI, I2C
 - [ ] DMA
 - [ ] RTOS (ambitious, but lets try)
+- [ ] C++ support?

@@ -5,9 +5,9 @@ BIN_GENERATOR=arm-none-eabi-objcopy
 FLASHER=st-flash
 
 PROGRAM=blink
-OBJECTS=blink.o
+OBJECTS=blink.o startup.o
 
-LINKER_DESCRIPTOR=../stm32f103.ld
+LINKER_DESCRIPTOR=stm32f103c8t6.ld
 FLASH_START_ADDRESS=0x8000000
 
 TARGET_FLAGS=\
